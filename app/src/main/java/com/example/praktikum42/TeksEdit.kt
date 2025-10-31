@@ -261,3 +261,6 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
                 shape = RoundedCornerShape(16.dp)
             )
 
+        }
+    }
+}
