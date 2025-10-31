@@ -79,3 +79,12 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
                 .fillMaxWidth()
                 .background(purpleHeader, shape = RoundedCornerShape(8.dp))
                 .padding(16.dp)
+        )
+
+        // Box Putih untuk semua form
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 16.dp)
+                .background(Color.White, shape = RoundedCornerShape(12.dp))
+                .padding(16.dp)
