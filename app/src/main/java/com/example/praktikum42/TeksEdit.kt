@@ -54,3 +54,8 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
     var showDialog by remember { mutableStateOf(false) }
 
     val gender: List<String> = listOf("Laki-laki", "Perempuan")
+    val statusPerkawinan: List<String> = listOf("Janda", "Lajang", "Duda")
+
+    // Warna ungu untuk background
+    val purpleBackground = Color(0xFFE6D5F5)
+    val purpleButton = Color(0xFF7C3AED)
